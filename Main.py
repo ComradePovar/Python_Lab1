@@ -5,7 +5,6 @@ path = "input.txt"
 leftTurnCount = 0
 penaltySize = 0
 
-print("Hello World")
 with open(path) as file:
     line = file.readline().split(sep='=')
     if line[0] != "penalty":
